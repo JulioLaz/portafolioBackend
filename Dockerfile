@@ -4,5 +4,5 @@
 
 FROM amazoncorretto:17-alpine-jdk
 MAINTAINER emaaristimuno
-COPY target/jal-0.0.1-SNAPSHOT.jar jal-0.0.1-SNAPSHOT.jar
+COPY C:/JulioPrograma/Argentina_Programa/ProyectoFinal/jal/target/jal-0.0.1-SNAPSHOT.jar jal-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java","-jar","/jal-0.0.1-SNAPSHOT.jar"]
